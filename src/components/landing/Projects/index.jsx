@@ -1,5 +1,5 @@
 import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
+//import { useStaticQuery, graphql } from 'gatsby'
 import { Container, Card } from 'Common'
 import starIcon from 'Static/icons/star.svg'
 import forkIcon from 'Static/icons/fork.svg'
