@@ -21,8 +21,7 @@ module.exports = {
         path: '${__dirname}/src/assets',
       },
     }, */
-		'gatsby-transformer-sharp',
-		'gatsby-plugin-sharp',
+		
 		{
 			resolve: 'gatsby-source-graphql',
 			options: {
@@ -35,6 +34,8 @@ module.exports = {
 				fetchOptions: {},
 			},
 		},
+		'gatsby-transformer-sharp',
+		'gatsby-plugin-sharp',
 		{
 			resolve: 'gatsby-plugin-nprogress',
 			options: {
