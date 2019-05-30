@@ -7,7 +7,7 @@ export default () => (
 		<SEO />
 		<Intro />
 		<Bio />
-		{/* <Projects /> */}
+		<Projects />
 		{/* <Skills /> */}
 		<Contact />
 	</Layout>
