@@ -26,14 +26,19 @@ module.exports = {
 		{
 			resolve: 'gatsby-source-graphql',
 			options: {
-				typeName: 'GitHub',
-				fieldName: 'github',
-				url: 'https://api.github.com/graphql',
-				headers: {
-					Authorization: `bearer ${process.env.GATSBY_GITHUB_TOKEN}`,
-				},
-				fetchOptions: {},
-			},
+				typeName: "GitHub",
+				fieldName: "github",
+				// Create Apollo Link manually. Can return a Promise.
+				createLink: (pluginOptions) => {
+				  return createHttpLink({
+					uri: 'https://api.github.com/graphql',
+					headers: {
+					  'Authorization': `bearer ${process.env.GITHUB_TOKEN}`,
+					},
+					fetch,
+				  })
+			  },
+			}
 		},
 		'gatsby-transformer-sharp',
 		'gatsby-plugin-sharp',
