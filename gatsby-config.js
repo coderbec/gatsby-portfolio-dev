@@ -36,7 +36,7 @@ module.exports = {
 				//   Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
 				// },
 				// Additional options to pass to node-fetch
-				//fetchOptions: {},
+				fetchOptions: {},
 			  },
 		},
 		'gatsby-transformer-sharp',
