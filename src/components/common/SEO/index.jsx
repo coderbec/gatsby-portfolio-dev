@@ -71,6 +71,7 @@ export const SEO = ({
 			<meta name="twitter:title" content={title} />
 			<meta name="twitter:description" content={description} />
 			<meta name="twitter:image:src" content={Thumbnail} />
+			<meta name="google-site-verification" content="ToJZKfFibjtKtgAxX1yu3ABjxQgMuHns587Czb1VNoU" />
 			<script type="application/ld+json">{structuredDataOrganization}</script>
 			<link rel="publisher" href={socialLinks.google} />
 			<title>{title}</title>
