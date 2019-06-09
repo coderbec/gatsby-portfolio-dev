@@ -1,32 +1,38 @@
 [
   {
     "id": 0,
-    "name": "Telegram",
-    "link": "https://t.me/coder_bec",
-    "icon": "/icons/telegram.svg"
-  },
-  {
-    "id": 1,
-    "name": "Github",
-    "link": "https://github.com/coderbec",
-    "icon": "/icons/github.svg"
-  },
-  {
-    "id": 2,
-    "name": "StackOverflow",
-    "link": "https://stackoverflow.com/users/story/7396786",
-    "icon": "/icons/stackoverflow.svg"
-  },
-  {
-    "id": 3,
     "name": "Twitter",
     "link": "https://twitter.com/coder_bec",
     "icon": "/icons/twitter.svg"
   },
   {
-    "id": 4,
+    "id": 1,
     "name": "Medium",
     "link": "https://medium.com/@coder_bec",
-    "icon": "/icons/twitter.svg"
+    "icon": "/icons/medium.svg"
+  },
+  {
+    "id": 2,
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/bec-martin-8806a938/",
+    "icon": "/icons/linkedin.svg"
+  },
+  {
+    "id": 3,
+    "name": "Telegram",
+    "link": "https://t.me/coder_bec",
+    "icon": "/icons/telegram.svg"
+  },
+  {
+    "id": 4,
+    "name": "Github",
+    "link": "https://github.com/coderbec",
+    "icon": "/icons/github.svg"
+  },
+  {
+    "id": 5,
+    "name": "StackOverflow",
+    "link": "https://stackoverflow.com/users/2934621/bec-martin",
+    "icon": "/icons/stackoverflow.svg"
   }
 ]

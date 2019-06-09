@@ -19,10 +19,10 @@ export const Bio = () => (
 				and SME clients as a technology consultant, and mobile apps developer. 
 				She draws on her broad range of experiences and insight as a consultant 
 				and policy adviser in product, strategy and innovation. At MessageMedia, 
-				she is an advocate for developers who use MessageMedia’s global messaging solutions to build amazing products that make a difference.
+				she is an advocate for developers who use MessageMedia’s global messaging solutions.
 				</p>
 				<Button as={AnchorLink} href="#contact">
-					Hire me
+					Contact
 				</Button>
 			</Details>
 		</SkillsWrapper>
